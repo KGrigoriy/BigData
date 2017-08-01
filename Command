@@ -1,1 +1,0 @@
- hadoop fs -text source/file > destination/file

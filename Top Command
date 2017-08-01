@@ -1,0 +1,5 @@
+hadoop fs -text path/source/file > path/destination/file
+hadoop fs -text |head -10 path/source/file > path/destination/file
+hadoop fs -text |tail -10 path/source/file > path/destination/file
+
+yarn application -kill application_1498531407284_473572
