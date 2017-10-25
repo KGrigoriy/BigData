@@ -7,3 +7,5 @@ yarn application -kill application_1498531407284_473572
 hdfs dfs -chmod 777 path/source/file
 
 hadoop fs -text .gz |head -10
+
+hadoop fs -du -s -h path/source/dir
