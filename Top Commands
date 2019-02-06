@@ -11,3 +11,7 @@ hadoop fs -text .gz |head -10
 hadoop fs -du -s -h path/source/dir
 
 hadoop fs -ls /apps/hive/warehouse/ | grep "test.db"
+
+yarn logs -appOwner %username% -applicationId %application-ID% |& less -iSR
+yarn logs -appOwner tech_arsindexesforcm_bgd_ms -applicationId application_1520831188142_1107125 |& less -iSR
+yarn logs -appOwner tech_b2bchurn_bgd_ms -applicationId application_1541718974150_182145 |& less -iSR > log.txtappOwner tech_b2bchurn_bgd_ms -applicationId application_1541718974150_182145 |& less -iSR > log.txt
