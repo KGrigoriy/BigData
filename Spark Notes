@@ -1,2 +1,4 @@
 Partition vs Bucket
 Bucketing is similar to partitioning, but partitioning creates a directory for each partition, whereas bucketing distributes data across a fixed number of buckets by a hash on the bucket value. Tables can be bucketed on more than one value and bucketing can be used with or without partitioning.
+Bucket vs Sort
+Since sorting is not global, there is no benefits form sortBy.
